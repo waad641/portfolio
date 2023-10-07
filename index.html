@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+    <div id="header">
+      <div class="container" >
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#potfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <H1>Hi, </H1>
+          <H1>I'm waad Bouzidi,<br>Software Engineer </H1>
+        </div>
+      </div>   
+    </div>
+
+   <!----------about---------- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/me.jpg" alt="">
+           </div>
+           <div class="about-col-2">
+             <h1 class="sub-title">About Me</h1>
+             <p>I'm Waad, a passionate and dedicated software engineer.<br> I thrive on solving complex problems and creating impactful solutions.<br> With a strong foundation in computer science and a drive for innovation,<br> I constantly seek opportunities to learn and make a difference.<br> Let's collaborate and turn dreams into reality through the power of code!</p>
+             <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experiences</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+             </div>
+             <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Front-end skills:</span><br>HTML/CSS, JavaScript. </li>
+              </ul>
+              <ul>
+                <li><span>Back-end skills:</span><br>Python , C++, GoLang ,Java <br> Frameworks:  Flask ,Django, Spring , ASP.NET.</li>
+              </ul>
+              <ul>
+                <li><span>Testing and Debugging.</span></li>
+              </ul>
+              <ul>
+                <li><span>Cloud computing.<br> </span></li>
+              </ul>
+              <ul>
+                <li><span>SDLC and design patterns.<br> </span></li>
+              </ul>
+             </div>
+
+
+             <div class="tab-contents" id="experience">
+              <ul>
+                <li><span> 02/2016 - 02/2017 </span><br>Search Engine Optimization Specialist. </li>
+              </ul>
+              <ul>
+                <li><span> 02/2017-present</span><br>Software Engineer.</li>
+              </ul>
+             </div>
+
+             <div class="tab-contents" id="education">
+              <ul>
+                <li><span> Bachelor's in Computer Sciences.</span></li>
+              </ul>
+              <ul>
+                <li><span> Master's of Computer Sciences.</span></li>
+              </ul>
+             </div>
+
+            </div>
+        </div>
+      </div>
+    </div>
+<!----------services---------->
+<div id="services">
+<div class="container" >
+   <h1 class="sub-title">My Services</h1>
+   <div class="services-list">
+      <div>
+        <h2>Web Development</h2>
+        <p>As a skilled software engineer, I excel in web development,<br>
+          crafting elegant and responsive websites that merge intuitive<br>
+          user interfaces with robust back-end functionality.</p>
+       
+      </div>
+
+
+      <div>
+        <h2>Database Design and Management</h2>
+        <p>With my expertise in database design and management, <br>
+          I ensure efficient data organization, seamless query performance,<br>
+          and optimal data integrity for web applications.</p>
+        
+      </div>
+
+      <div>
+        <h2>API Development and Integration</h2>
+        <p>Through my expertise in API development and integration, <br>
+          I seamlessly connect web applications with external services<br>
+          enabling efficient data exchange and <br>
+          fostering seamless integration capabilities.</p>
+        
+      </div>
+
+      <div>
+        <h2>Cloud Computing and Deployment</h2>
+        <p>With a strong command of cloud computing and deployment,<br>
+          I leverage scalable cloud platforms to efficiently deploy <br>
+          and manage web applications, ensuring high availability , <br>
+          scalability, and cost-effectiveness.</p>
+       
+      </div>
+
+      <div>
+        <h2>Software Architecture and Design Patterns</h2>
+        <p>As a software engineer well-versed in software architecture and design patterns,<br>
+           I employ proven architectural principles and design patterns to create scalable, <BR>
+           maintainable, and modular software systems that meet the highest standards of quality and performance.<BR></p>
+      
+      </div>
+
+   </div>
+</div>
+</div>
+<!----------portfolio---------->
+<div id="potfolio">
+<div class="container">
+   <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work1.png" alt="">
+      <div class="layer">
+        <h3>Cryptocurrency App</h3>
+        <p>cryptocurrency built with python and flask<br>
+        you  can buy,sell crypto and track the transactions <br>
+      with an eye on real-time analysis of cryptocurrencies around the world </p>
+        <a href="https://github.com/waad641/Sirius-"><img src="images/git.png"  id="link" alt=""></a>
+     
+      </div>
+      </div>
+      <div class="work">
+        <img src="images/work2.png" alt="">
+        <div class="layer">
+          <h3>IP Address Calculator </h3>
+          <p>a Java program that calculates the network address<br>
+            given an IP address and a subnet mask.<br></p>
+          <a href="https://github.com/waad641/IPAddressCalculator"><img src="images/git.png"  id="link" alt=""></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work3.jpg" alt="">
+        <div class="layer">
+          <h3>Image Uniqueness Calculator </h3>
+          <p>calculate the hash value of an image to determine its uniqueness.</p>
+          <a href="https://github.com/waad641/ImageUniquenessCalculator"><img src="images/git.png"  id="link" alt=""></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work4.png" alt="">
+        <div class="layer">
+          <h3>Neurone </h3>
+          <p>This code snippet is an example of training a convolutional neural network (CNN)<br>
+            using TensorFlow and the MNIST dataset.<br>
+            The MNIST dataset consists of images of handwritten digits. </p>
+          <a href="https://github.com/waad641/neurone"><img src="images/git.png"  id="link" alt=""></a>
+        </div>
+      </div>
+ <div class="work">
+        <img src="images/work55.png" alt="">
+        <div class="layer">
+          <h3>Polaris the chatbot</h3>
+          <p>a responsive chatbot called "Polaris" using HTML,CSS and Javascript<br>
+              powered by AI where you can ask any question and receive instant responses . </p>
+          <a href="https://github.com/waad641/Polaris-the-chatbot"><img src="images/git.png"  id="link" alt=""></a>
+        </div>
+      </div>
+         <div class="work">
+        <img src="images/work5.png" alt="">
+        <div class="layer">
+          <h3>web scraper</h3>
+          <p>a Chrome extension that allows users to scrape 
+              <br> and display email addresses from the currently active tab's content. </p>
+          <a href="https://github.com/waad641/web-scraper"><img src="images/git.png"  id="link" alt=""></a>
+        </div>
+      </div>
+         <div class="work">
+        <img src="images/work6.png" alt="">
+        <div class="layer">
+          <h3>PDF-Image-Analysis </h3>
+          <p>This code snippet is read an image from a PDF file and analyze it to build graphics </p>
+          <a href="https://github.com/waad641/PDF-Image-Analysis"><img src="images/git.png"  id="link" alt=""></a>
+        </div>
+      </div>
+
+    </div> 
+</div>
+
+</div>
+<!----------contact---------->
+<div id="contact">
+     <div class="container">
+       <div class="row">
+           <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i>bouzidiwaad19@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i>+216 95022435 </p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/waad-bouzidi/"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/waad641"><i class="fab fa-github"></i></a>
+            </div>
+            <a href="waad bouzidiResume.pdf" class="btn btn2" download="">Download CV </a>
+           </div>
+           
+
+    </div>
+  </div>
+</div>
+
+    <script>
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+       function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+       }
+    </script>
+  <script>
+     var sidemeu= document.getElementById("sidemenu");
+     function openmenu(){
+      sidemeu.style.right="0";
+     }
+     function closemenu(){
+      sidemeu.style.right="-200px";
+     }
+
+
+
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Get the form element
+      var form = document.querySelector('#contactForm');
+    
+      // Add submit event listener to the form
+      form.addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent form submission
+    
+        // Get the form inputs
+        var nameInput = form.querySelector('input[name="Name"]');
+        var emailInput = form.querySelector('input[name="email"]');
+        var messageInput = form.querySelector('textarea[name="Message"]');
+    
+        // Get the input values
+        var name = nameInput.value;
+        var email = emailInput.value;
+        var message = messageInput.value;
+    
+        // Compose the email body
+        var body = 'Name: ' + name + '\n';
+        body += 'Email: ' + email + '\n';
+        body += 'Message: ' + message;
+    
+        // Create a mailto link
+        var mailtoLink = 'mailto:bouzidiwaad19@gmail.com?subject=Message%20from%20' + encodeURIComponent(name) + '&body=' + encodeURIComponent(body);
+    
+        // Open the mailto link in a new tab
+        window.open(mailtoLink);
+    
+        // Reset the form
+        form.reset();
+      });
+    });
+    
+    
+    </script>
+</body>
+</html>
